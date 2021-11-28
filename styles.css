@@ -1,0 +1,37 @@
+.container_1{
+    border: 1px black solid;
+    margin:0 auto;
+    width: 75%;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.flex-box-container-1{
+    /* border: 1px black solid; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border: solid black 1px; */
+}
+.btn_btn-primary-dark{
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(52, 38, 65);
+}
+.btn_btn-danger{
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background: lightblue;
+}
+
